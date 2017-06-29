@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2017-03-06 19:31:01">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value=""/>
+<application_name/>
+<application_scope/>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Update the Script include (LightMessenger) to add the Mid Server Name.</description>
+<inserted/>
+<name>Status Lights</name>
+<new_count/>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>b247f1d2db9df2405d7bfb0bbf96193a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>11be8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_sys_created_on</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_created_on" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Created</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_created_on</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">glide_date_time</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>true</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-20 04:02:50</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>1ba6af57e5da7400c2864904fc983440</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:04:31</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>11be8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Created</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_u_location3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_location3" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>3</choice><choice_field/><choice_table/><column_label>Location3</column_label><comments/><create_roles/><default_value>GREEN</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_location3</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-20 04:02:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>cfa6af57e5da7400c2864904fc983429</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Location3</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_im_light_u_location3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:04:30</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>15be8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.San Francisco (SFO1)</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_im_light_u_location3_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_location3" label="Location3" language="en" table="u_im_light"><sys_documentation action="INSERT_OR_UPDATE"><element>u_location3</element><help/><hint/><label>Location3</label><language>en</language><name>u_im_light</name><plural>Location3</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-20 04:02:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>8ba6af57e5da7400c2864904fc98342a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Location3</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_im_light_u_location3_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:18:17</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>15be8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Location3</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_e1c14afb3d6af80012f6878bb9a8b952</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.LightMessenger&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Provide JS functionality for Incident Management light changes &lt;/description&gt;&lt;name&gt;LightMessenger&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var LightMessenger = Class.create();
+LightMessenger.prototype = {
+	initialize: function() {
+	},
+	
+	changeLight : function (light_id, color) {
+		var url = "light/"+light_id+"/color/"+color;
+		return this._sendMessage(url);
+	},
+	
+	changeLocation : function (location_name, color) {
+		var url = "location/"+location_name+"/color/"+color;
+		return this._sendMessage(url);
+	},
+	
+	changeLights : function (list) {
+		var len = list.length;
+		var light_list = [];
+		for (var i = 0; i &lt; len; i++) {
+			light_list.push('{"id": "'+ list[i].id +'", "color": "'+ list[i].color+ '"}');
+		}
+		var light_json = "'{\"lights\" : [ "+ light_list.join() + "]}'";
+		
+		return this._sendMessage("lights", light_json);
+	},
+	
+	changeLocations : function (list) {
+		var len = list.length;
+		var location_list = [];
+		for (var i = 0; i &lt; len; i++) {
+			location_list.push('{"name": "'+ list[i].name +'", "color": "'+ list[i].color+ '"}');
+		}
+		location_list = "'{\"locations\" : [ "+ location_list.join() + "]}'";
+		
+		return this._sendMessage("locations", location_list);
+	},
+	
+	_sendMessage : function(url, payload) {
+		payload = typeof payload !== 'undefined' ? payload : '';
+		var xmlDoc = new XMLDocument("&lt;parameters&gt;&lt;/parameters&gt;");
+		var parameterNode = xmlDoc.createElement("parameter");
+		xmlDoc.setCurrent(parameterNode);
+		xmlDoc.setAttribute("name", "name");
+		xmlDoc.setAttribute("value", "groovy defcon.groovy " + url + " " + payload);
+		
+		var ecc_message = new GlideRecord("ecc_queue");
+		ecc_message.initialize();
+		ecc_message.agent = //"mid.server.name"
+		ecc_message.name = "LightMessage";
+		ecc_message.topic = "Command";
+		ecc_message.payload = xmlDoc.toString();
+		ecc_message.queue = "output";
+		return ecc_message.insert();
+	},
+	
+	type: 'LightMessenger'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2013-01-02 20:14:39&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;e1c14afb3d6af80012f6878bb9a8b952&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LightMessenger&lt;/sys_name&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_e1c14afb3d6af80012f6878bb9a8b952&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-03-06 17:56:42&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>19be8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table/>
+<target_name>LightMessenger</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_sys_created_by</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_created_by" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Created by</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_created_by</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>true</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-20 04:02:50</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>97a6af57e5da7400c2864904fc98343f</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:04:31</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>19be8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Created by</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_a9c55bf99d1211002a38bb21ef73d2d5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>IM Light</label><live_feed_enabled>false</live_feed_enabled><name>u_im_light</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2014-01-17 03:20:25</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>a9c55bf99d1211002a38bb21ef73d2d5</sys_id><sys_mod_count>2</sys_mod_count><sys_name>IM Light</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_a9c55bf99d1211002a38bb21ef73d2d5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:42:42</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>1dbe8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_u_location2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_location2" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>3</choice><choice_field/><choice_table/><column_label>Location2</column_label><comments/><create_roles/><default_value>GREEN</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_location2</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>mich0831</sys_created_by><sys_created_on>2012-12-20 04:02:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>cba6af57e5da7400c2864904fc983427</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Location2</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_im_light_u_location2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:11:00</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>1dbe8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.u_location2</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_sys_mod_count</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_mod_count" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Updates</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_mod_count</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>true</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>mich0831</sys_created_by><sys_created_on>2012-12-20 04:02:50</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>9ba6af57e5da7400c2864904fc983441</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name/><sys_updated_by>robe0938</sys_updated_by><sys_updated_on>2017-03-06 18:04:31</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>51be8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Updates</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_sys_updated_on</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_updated_on" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Updated</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_updated_on</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">glide_date_time</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>true</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>mich0831</sys_created_by><sys_created_on>2012-12-20 04:02:50</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>17a6af57e5da7400c2864904fc98343e</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name/><sys_updated_by>robe0938</sys_updated_by><sys_updated_on>2017-03-06 18:04:32</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>55be8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Updated</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_im_light_u_location3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_location3" table="u_im_light" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location3</element><hint/><inactive>false</inactive><label>GREEN</label><language>en</language><name>u_im_light</name><sequence>0</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:57:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0ea9378a3dcaf00012f6878bb9a8b945</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:47</sys_updated_on><value>GREEN</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location3</element><hint/><inactive>false</inactive><label>BLUE</label><language>en</language><name>u_im_light</name><sequence>1</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:57:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>06a9378a3dcaf00012f6878bb9a8b946</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:47</sys_updated_on><value>BLUE</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location3</element><hint/><inactive>false</inactive><label>YELLOW</label><language>en</language><name>u_im_light</name><sequence>2</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:57:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0ea9378a3dcaf00012f6878bb9a8b946</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:47</sys_updated_on><value>YELLOW</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location3</element><hint/><inactive>false</inactive><label>RED</label><language>en</language><name>u_im_light</name><sequence>3</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:57:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>06a9378a3dcaf00012f6878bb9a8b947</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:47</sys_updated_on><value>RED</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location3</element><hint/><inactive>false</inactive><label>ALL</label><language>en</language><name>u_im_light</name><sequence>4</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:57:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0ea9378a3dcaf00012f6878bb9a8b947</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:45</sys_updated_on><value>ALL</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_location3</element><name>u_im_light</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2014-07-06 14:45:51</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b3e01978403121002a38be37f3bd5c4b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_location3</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_im_light_u_location3</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2014-07-06 14:45:51</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>55be8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Location3</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_64724ca93deab80012f6878bb9a8b93b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category/&gt;&lt;client_script&gt;&lt;![CDATA[function checkECCProcess(message_sys_id) {
+   var i = 0;
+   
+   var ecc_message = setInterval(function() {
+      i++;
+      
+      if (i &lt; 100) {
+         var result = eccMessageDone(message_sys_id);
+         
+         console.log("Run #" + i + " Checking:" + message_sys_id);
+         if(result) {
+            $j("#loading_div").hide();
+            var payload = $j(result.payload).find("stdout").text();
+            
+            $j("#response").html("&lt;br/&gt;"+payload+"&lt;br/&gt;&lt;br/&gt;");
+			
+            if(payload.indexOf("409") == -1 )
+               $j("#success_button").show();
+            else
+               $j("#failure_button").show();
+			
+            clearInterval(ecc_message)
+         }
+      }
+      else {
+		 $j("#response").html("&lt;br/&gt;The lighting system is unavailable.&lt;br/&gt;&lt;br/&gt;");
+		 $j("#failure_button").show();
+         clearInterval(ecc_message);
+      }
+   }, 2000);
+   
+}
+
+function eccMessageDone(message_sys_id) {
+   var gr = new GlideRecord("ecc_queue");
+   gr.addQuery("response_to", message_sys_id);
+   gr.query();
+   return gr.next() ? gr : null;
+}
+
+checkECCProcess("${message_sys_id}");]]&gt;&lt;/client_script&gt;&lt;description&gt;UI Page should be included within Glide Dialog to handle changing of IM Lights. &lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+&lt;g:evaluate&gt;
+var location1 = "${RP.getWindowProperties().get('Location1')}";
+var location2 = "${RP.getWindowProperties().get('Location2')}";
+var location3 = "${RP.getWindowProperties().get('Location3')}";
+var referrer = "${RP.getReferringURL()}";
+var submit_action = (referrer.indexOf('u_im_light') != -1) ? "save_light" : "save_event";
+
+var locationList = [];
+
+if(castle){
+   locationList.push( { name: "Location1", color: location1  } );
+}
+if(austin){
+   locationList.push( { name: "Location2", color: location2  } );
+}
+if(sanfran){
+   locationList.push( { name: "Location3", color: location3 } );
+}
+
+var messenger = new LightMessenger();
+var message_sys_id = messenger.changeLocations(locationList);
+&lt;/g:evaluate&gt;
+
+&lt;div id="loading_div" style="overflow: auto; text-align: center"&gt;&lt;br/&gt; Change in progress... &lt;br /&gt;&lt;br /&gt;&lt;img src="images/ajax-loader.gifx"/&gt;&lt;/div&gt;
+&lt;div id="response" style="text-align: center"&gt;&lt;/div&gt;
+&lt;div id="success_button" style="text-align: center; display:none"&gt;
+&lt;g:dialog_button_ok ok="gsftSubmit(null, g_form.getFormElement(), '${submit_action}');" ok_type="button" cancel_type="button" /&gt;
+&lt;/div&gt;
+&lt;div id="failure_button" style="text-align: center; display:none"&gt;
+&lt;g:dialog_button_ok ok="GlideDialogWindow.get().destroy();" ok_type="button" cancel_type="button" /&gt;
+&lt;/div&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;light_messenger&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2012-12-26 11:13:19&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;64724ca93deab80012f6878bb9a8b93b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;light_messenger&lt;/sys_name&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_64724ca93deab80012f6878bb9a8b93b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-03-06 17:58:30&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>59be8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table/>
+<target_name>light_messenger</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_5c5bfd7e3dcef00012f6878bb9a8b944</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_label/&gt;&lt;action_name/&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_run_at&gt;server&lt;/action_run_at&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;application/&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_im_light&lt;/collection&gt;&lt;condition&gt;current.u_location1 == 'GREEN' &amp;amp;&amp;amp; current.u_location2 == 'GREEN' &amp;amp;&amp;amp; current.u_location3 == 'GREEN'&lt;/condition&gt;&lt;description&gt;When all three locations are set to green.  Clears the related incident&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Clear Current Incident when lights green&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;read_access_action&gt;false&lt;/read_access_action&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[//Business rule clears the current incident field when lights go back to green.
+//When new Locations come online, add those locations to the condition of this business rule.
+current.u_current_incident_event = '';]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2012-12-05 20:45:32&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5c5bfd7e3dcef00012f6878bb9a8b944&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Clear Current Incident when lights green&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_5c5bfd7e3dcef00012f6878bb9a8b944&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-03-06 18:00:22&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>59be8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>Clear Current Incident when lights green</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_sys_updated_by</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_updated_by" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Updated by</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_updated_by</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>true</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>mich0831</sys_created_by><sys_created_on>2012-12-20 04:02:50</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>83a6af57e5da7400c2864904fc98343d</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name/><sys_updated_by>robe0938</sys_updated_by><sys_updated_on>2017-03-06 18:04:32</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>5dbe8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Updated by</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_u_location1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_location1" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>3</choice><choice_field/><choice_table/><column_label>Location1</column_label><comments/><create_roles/><default_value>GREEN</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_location1</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>mich0831</sys_created_by><sys_created_on>2012-12-20 04:02:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>4ba6af57e5da7400c2864904fc983426</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Location1</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_im_light_u_location1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:10:51</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>5dbe8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.u_location1</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_u_location1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_location1" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>3</choice><choice_field/><choice_table/><column_label>Location1</column_label><comments/><create_roles/><default_value>GREEN</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_location1</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-20 04:02:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>4ba6af57e5da7400c2864904fc983426</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Castle (SAT6)</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_im_light_u_location1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:08:40</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>91be8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Castle (SAT6)</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>true</audit><calculation/><choice/><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-20 04:02:52</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>33a6af57e5da7400c2864904fc983443</sys_id><sys_mod_count>2</sys_mod_count><sys_name>u_im_light</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_im_light_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:03:15</sys_updated_on><table_reference>false</table_reference><text_index>true</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>95be8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_im_light_u_location2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_location2" table="u_im_light" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location2</element><hint/><inactive>false</inactive><label>GREEN</label><language>en</language><name>u_im_light</name><sequence>0</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:56:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6f59f38a3dcaf00012f6878bb9a8b96c</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:45</sys_updated_on><value>GREEN</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location2</element><hint/><inactive>false</inactive><label>BLUE</label><language>en</language><name>u_im_light</name><sequence>1</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:56:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6759f38a3dcaf00012f6878bb9a8b96d</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:46</sys_updated_on><value>BLUE</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location2</element><hint/><inactive>false</inactive><label>YELLOW</label><language>en</language><name>u_im_light</name><sequence>2</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:56:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6f59f38a3dcaf00012f6878bb9a8b96d</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:46</sys_updated_on><value>YELLOW</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location2</element><hint/><inactive>false</inactive><label>RED</label><language>en</language><name>u_im_light</name><sequence>3</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:56:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6759f38a3dcaf00012f6878bb9a8b96e</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:46</sys_updated_on><value>RED</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location2</element><hint/><inactive>false</inactive><label>ALL</label><language>en</language><name>u_im_light</name><sequence>4</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:56:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6f59f38a3dcaf00012f6878bb9a8b96e</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:46</sys_updated_on><value>ALL</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_location2</element><name>u_im_light</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2014-07-06 14:45:55</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>64f01978403121002a38be37f3bd5c73</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_location2</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_im_light_u_location2</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2014-07-06 14:45:55</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>95be8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Location2</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_12b9c01e3dcaf00012f6878bb9a8b93b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="IM Lights" section_id="12b9c01e3dcaf00012f6878bb9a8b93b" sys_domain="global" table="u_im_light" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-03-06 18:18:55</sys_created_on><sys_id>513eb596db9df2405d7bfb0bbf9619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IM Lights" display_value="u_im_light" name="u_im_light" sys_domain="global" view="Default view">12b9c01e3dcaf00012f6878bb9a8b93b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:18:55</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_location1</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-03-06 18:18:56</sys_created_on><sys_id>d13eb596db9df2405d7bfb0bbf9619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IM Lights" display_value="u_im_light" name="u_im_light" sys_domain="global" view="Default view">12b9c01e3dcaf00012f6878bb9a8b93b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:18:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_location2</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-03-06 18:18:56</sys_created_on><sys_id>553eb596db9df2405d7bfb0bbf9619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IM Lights" display_value="u_im_light" name="u_im_light" sys_domain="global" view="Default view">12b9c01e3dcaf00012f6878bb9a8b93b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:18:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_location3</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-03-06 18:18:56</sys_created_on><sys_id>d53eb596db9df2405d7bfb0bbf9619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IM Lights" display_value="u_im_light" name="u_im_light" sys_domain="global" view="Default view">12b9c01e3dcaf00012f6878bb9a8b93b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:18:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-03-06 18:18:56</sys_created_on><sys_id>593eb596db9df2405d7bfb0bbf9619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IM Lights" display_value="u_im_light" name="u_im_light" sys_domain="global" view="Default view">12b9c01e3dcaf00012f6878bb9a8b93b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:18:56</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_current_incident_event</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-03-06 18:18:56</sys_created_on><sys_id>d93eb596db9df2405d7bfb0bbf9619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IM Lights" display_value="u_im_light" name="u_im_light" sys_domain="global" view="Default view">12b9c01e3dcaf00012f6878bb9a8b93b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:18:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-03-06 18:18:56</sys_created_on><sys_id>5d3eb596db9df2405d7bfb0bbf9619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IM Lights" display_value="u_im_light" name="u_im_light" sys_domain="global" view="Default view">12b9c01e3dcaf00012f6878bb9a8b93b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:18:56</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>IM Lights</caption><header>false</header><name>u_im_light</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 23:07:51</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>12b9c01e3dcaf00012f6878bb9a8b93b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_im_light</sys_name><sys_overrides display_value="">global</sys_overrides><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_12b9c01e3dcaf00012f6878bb9a8b93b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2013-01-07 17:06:24</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>99be8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_im_light_u_location1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_location1" table="u_im_light" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location1</element><hint/><inactive>false</inactive><label>GREEN</label><language>en</language><name>u_im_light</name><sequence>0</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:55:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0a297f4a3dcaf00012f6878bb9a8b903</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:46</sys_updated_on><value>GREEN</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location1</element><hint/><inactive>false</inactive><label>BLUE</label><language>en</language><name>u_im_light</name><sequence>1</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:55:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>02297f4a3dcaf00012f6878bb9a8b904</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:46</sys_updated_on><value>BLUE</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location1</element><hint/><inactive>false</inactive><label>YELLOW</label><language>en</language><name>u_im_light</name><sequence>2</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:55:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0a297f4a3dcaf00012f6878bb9a8b904</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:46</sys_updated_on><value>YELLOW</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location1</element><hint/><inactive>false</inactive><label>RED</label><language>en</language><name>u_im_light</name><sequence>3</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:55:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>02297f4a3dcaf00012f6878bb9a8b905</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:47</sys_updated_on><value>RED</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_location1</element><hint/><inactive>false</inactive><label>ALL</label><language>en</language><name>u_im_light</name><sequence>4</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-03 21:55:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0a297f4a3dcaf00012f6878bb9a8b905</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:43:47</sys_updated_on><value>ALL</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_location1</element><name>u_im_light</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2014-07-06 14:45:51</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b3e01978403121002a38be37f3bd5c49</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_location1</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_im_light_u_location1</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2014-07-06 14:45:51</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>99be8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Location1</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_u_location3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_location3" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>3</choice><choice_field/><choice_table/><column_label>Location3</column_label><comments/><create_roles/><default_value>GREEN</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_location3</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>mich0831</sys_created_by><sys_created_on>2012-12-20 04:02:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>cfa6af57e5da7400c2864904fc983429</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Location3</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_im_light_u_location3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:11:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>9dbe8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.u_location3</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_im_light_u_location2_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_location2" label="Location2" language="en" table="u_im_light"><sys_documentation action="INSERT_OR_UPDATE"><element>u_location2</element><help/><hint/><label>Location2</label><language>en</language><name>u_im_light</name><plural>Location2</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-20 04:02:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>87a6af57e5da7400c2864904fc983428</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Location2</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_im_light_u_location2_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:17:56</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>9dbe8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Location2</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_u_current_incident_event</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_current_incident_event" table="u_im_light"><active>true</active><array>false</array><attributes>slushbucket_ref_no_expand=true,no_sort=true</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Current Incident Event</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_current_incident_event</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">glide_list</internal_type><mandatory>false</mandatory><max_length>1024</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="Incident" name="incident">incident</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual>u_active=true</reference_qual><reference_qual_condition table="incident">u_active=true</reference_qual_condition><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>mich0831</sys_created_by><sys_created_on>2012-12-20 04:02:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>43a6af57e5da7400c2864904fc983424</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Current Incident Event</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_im_light_u_current_incident_event</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:11:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>d1be8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Current Incident Event</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_u_location2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_location2" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>3</choice><choice_field/><choice_table/><column_label>Location2</column_label><comments/><create_roles/><default_value>GREEN</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_location2</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-20 04:02:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>cba6af57e5da7400c2864904fc983427</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Location2</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_im_light_u_location2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:04:32</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>d1be8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Austin (AUS2)</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_u_comments</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_comments" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Comments</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_comments</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">journal_input</internal_type><mandatory>false</mandatory><max_length>4000</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-20 04:02:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>c7a6af57e5da7400c2864904fc983425</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Comments</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_im_light_u_comments</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:04:33</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>d5be8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Comments</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_im_light_u_location1_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_location1" label="Location1" language="en" table="u_im_light"><sys_documentation action="INSERT_OR_UPDATE"><element>u_location1</element><help/><hint/><label>Location1</label><language>en</language><name>u_im_light</name><plural>Locaiton1</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-20 04:02:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>07a6af57e5da7400c2864904fc983427</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Location1</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_im_light_u_location1_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:17:36</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>d5be8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Location1</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_e9fd86073d42340012f6878bb9a8b9db</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;save_light&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;hint/&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;name&gt;Update and Stay&lt;/name&gt;&lt;onclick&gt;lightDialog();&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function lightDialog() {
+	//Initialize and open the Dialog Window
+	var dialog = new GlideDialogWindow("light_messenger"); //Render the dialog containing the UI Page 'task_comments_dialog'
+	dialog.setTitle("Incident Management Lights."); //Set the dialog title
+	dialog.removeCloseDecoration(); //Remove the dialog close icon
+	
+	// If additional locations are needed, add if statements for them here so the values are passed to UI Page processor.
+	if(g_form.getControl('u_location1').changed)
+		dialog.setPreference("Location1", g_form.getValue("u_location1"));
+	
+	if(g_form.getControl('u_location2').changed)
+		dialog.setPreference("Location2", g_form.getValue("u_location2"));
+	
+	if(g_form.getControl('u_location3').changed)
+		dialog.setPreference("Location3", g_form.getValue("u_location3"));
+	
+	dialog.render(); //Open the dialog
+}
+
+//Server-side Code
+if(typeof window == 'undefined') {
+	action.setRedirectURL(current);
+	current.update();
+	gs.addInfoMessage('Updated IM Light status');
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;robe0938&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2012-12-06 16:42:23&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e9fd86073d42340012f6878bb9a8b9db&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update and Stay&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_e9fd86073d42340012f6878bb9a8b9db&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-03-06 18:15:51&lt;/sys_updated_on&gt;&lt;table&gt;u_im_light&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>d9be8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>Update and Stay</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_sys_id</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_id" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Sys ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_id</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">GUID</internal_type><mandatory>true</mandatory><max_length>32</max_length><name>u_im_light</name><next_element/><primary>true</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2012-12-20 04:02:50</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>03a6af57e5da7400c2864904fc98343c</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:04:31</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>d9be8adedb9df2405d7bfb0bbf9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Sys ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_im_light_u_comments_list</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_comments_list" table="u_im_light"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Comments list</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent>u_comments</dependent><dependent_on_field>u_comments</dependent_on_field><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_comments_list</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">journal_list</internal_type><mandatory>false</mandatory><max_length>4000</max_length><name>u_im_light</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>mich0831</sys_created_by><sys_created_on>2012-12-20 04:04:36</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>8d172797e5da7400c2864904fc983404</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Comments list</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_im_light_u_comments_list</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-03-06 18:04:33</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>true</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Status Lights">11be8adedb9df2405d7bfb0bbf9619a2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>robe0938</sys_created_by>
+<sys_created_on>2017-03-06 19:31:01</sys_created_on>
+<sys_id>ddbe8adedb9df2405d7bfb0bbf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>robe0938</sys_updated_by>
+<sys_updated_on>2017-03-06 19:31:01</sys_updated_on>
+<table>u_im_light</table>
+<target_name>IM Light.Comments list</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

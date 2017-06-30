@@ -1,5 +1,12 @@
 # DEFCON
+
+## Synopsis
 The control system for the incident management light notification systems (integration with Service-Now)
+The application allows a user to change the light color from within ServiceNow and know if the light has been successfully updated.
+
+***
+## Installation
+
 Create a war file of DEFCON:
 type the following into command line where DEFCON is located - grails <environment name> war <name for the war file>
 example) grails prod war prodDefcon.war
@@ -10,15 +17,15 @@ Requirements:
 
 Installed the following on the server:
 
-Java
+- Java
 
-Glassfish
+- Glassfish
 
-Nginx
+- Nginx
 
-Groovy
+- Groovy
 
-ServiceNow MidServer
+- ServiceNow MidServer
 
 
 Enable security for remote login on Glassfish
@@ -69,3 +76,7 @@ Deploy DEFCON on Glassfish
 Steps for setting up the MidServer:
 
 http://wiki.servicenow.com/index.php?title=MID_Server_Installation#gsc.tab=0
+
+
+***
+## License

@@ -77,6 +77,3 @@ Steps for setting up the MidServer:
 
 http://wiki.servicenow.com/index.php?title=MID_Server_Installation#gsc.tab=0
 
-
-***
-## License
